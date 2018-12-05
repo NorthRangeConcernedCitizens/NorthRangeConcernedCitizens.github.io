@@ -1,6 +1,5 @@
 ---
 title: North Range Concerned Citizens
-owner: North Range Concerned Citizens
 timezone: MST
 collections:
   posts:
@@ -9,6 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+owner: North Range Concerned Citizens
 description: We are a coalition of Commerce City neighborhoods that firmly believes  industrial
   activity is incompatible with residential areas anywhere.
 baseurl: 
