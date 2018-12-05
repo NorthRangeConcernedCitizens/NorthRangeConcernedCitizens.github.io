@@ -2,6 +2,9 @@
 title: North Range Concerned Citizens
 timezone: MST
 collections:
+  events:
+    title: Events
+    output: true
   posts:
     title: Posts
     output: true
