@@ -1,0 +1,26 @@
+---
+title: North Range Concerned Citizens
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: We are a coalition of Commerce City neighborhoods that firmly believes  industrial
+  activity is incompatible with residential areas anywhere.
+baseurl: 
+url: 
+twitter_username: NRConcerned
+github_username: 
+address:
+- line: 
+- line: 
+telephone: 
+copyright: 
+google_api_key: 
+markdown: kramdown
+theme: minima
+plugins:
+- jekyll-feed
