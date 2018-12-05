@@ -1,6 +1,7 @@
 ---
 title: North Range Concerned Citizens
-timezone: UTC
+owner: North Range Concerned Citizens
+timezone: MST
 collections:
   posts:
     title: Posts
