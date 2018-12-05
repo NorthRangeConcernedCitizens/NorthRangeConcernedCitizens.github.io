@@ -10,8 +10,8 @@ collections:
     output: true
 description: We are a coalition of Commerce City neighborhoods that firmly believes  industrial
   activity is incompatible with residential areas anywhere.
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: NRConcerned
 github_username: 
 address:
