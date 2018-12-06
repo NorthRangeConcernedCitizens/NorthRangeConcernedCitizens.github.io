@@ -2,9 +2,10 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h3>Events</h3>
-        {% for post in site.posts %}
-          <h4>{{ post.title }}</h2>
+        <h2>Events</h2>
+        {% for event in site.events %}
+          <h3>{{ event.title }} | {{ event['event date'] | date: "%B %-d, %Y" }} {{ event['start time'] }} - {{ event['end time'] }}</h3>
+          <span>{{event.address}}</span>
         {% endfor %}
       </div>
     </div>
