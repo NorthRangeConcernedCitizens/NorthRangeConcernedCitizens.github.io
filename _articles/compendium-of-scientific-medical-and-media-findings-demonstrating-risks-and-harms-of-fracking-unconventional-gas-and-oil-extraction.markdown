@@ -4,6 +4,7 @@ title: |-
   Demonstrating Risks and Harms of Fracking
   (Unconventional Gas and Oil Extraction)
 date: 2018-12-16 08:46:00 -11:00
+position: 0
 URL: https://concernedhealthny.org/wp-content/uploads/2018/03/Fracking_Science_Compendium_5FINAL.pdf
 ---
 
