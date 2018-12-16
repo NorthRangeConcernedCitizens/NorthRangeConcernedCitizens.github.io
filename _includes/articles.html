@@ -3,7 +3,8 @@
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h2>Articles & Reports</h2>
             <hr class="small">
-            {% for article in site.articles %}
+            {% assign articles = (site.articles | sort: 'date') | reverse %} 
+            {% for article in articles %}
             <div class="row">
                 <div class="col-md-12">
                     <h3><a href="{{article.URL}}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a></h3>
