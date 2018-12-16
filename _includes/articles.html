@@ -3,15 +3,14 @@
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h2>Articles</h2>
             <hr class="small">
+            {% for article in site.articles %}
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <div class="row">
-                        <div class="col-md-12">
-                            'test'
-                        </div>
-                    </div>
+                <div class="col-md-12">
+                    <h3><a href="{{article.URL}}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a></h3>
+                    <p>{{ article.content }}</p>
                 </div>
             </div>
+            {% endfor %}
         </div>
     </div>
 </section>
