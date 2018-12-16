@@ -2,6 +2,9 @@
 title: North Range Concerned Citizens
 timezone: Pacific/Pago_Pago
 collections:
+  articles:
+    title: Articles
+    output: true
   events:
     title: Events
     output: true
