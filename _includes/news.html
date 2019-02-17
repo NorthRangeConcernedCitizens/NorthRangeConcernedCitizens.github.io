@@ -1,0 +1,16 @@
+<aside class="bg-primary news" id="news"    >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>In the News</h2>
+        <hr class="small">
+        {% assign news = site.news | sort: n.date) | reverse %}
+        <ul class="list-unstyled">
+            {% for n in news %}
+                <li class="news_article"><a href="{{n.URL}}" target="_blank" rel="noopener noreferrer">{{n.date |  date: "%m/%d/%Y" }} - {{ n.title }}</a></li>
+            {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</aside>

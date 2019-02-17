@@ -35,7 +35,7 @@ body {
 
 /* Custom Button Styles */
 
-.btn-danger {
+.btn-danger{
     font-size: 40px;
 }
 
@@ -224,7 +224,7 @@ div.action {
 
 /* Portfolio */
 
-.tweets, .articles, .actions {
+.tweets, .articles, .actions, .news {
     padding: 50px 0;
 }
 
@@ -250,12 +250,17 @@ div.action {
     margin: 10px;
 }
 
-.call-to-action .address a{
+.call-to-action .address a, .news_article a{
     font-size: 1.5em;
     color: white;
 }
 
 p { font-size: 1.3em; }
+
+/* news */
+.news_article {
+    font-size: 1.5em;
+}
 
 /* Map */
 
