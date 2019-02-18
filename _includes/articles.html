@@ -1,17 +1,92 @@
 <section id="articles" class="articles">
     <div class="container">
-        <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h2>Articles & Reports</h2>
+        <div class="col-lg-10 col-lg-offset-1">
+            <h2 class="text-center">Articles & Reports</h2>
             <hr class="small">
-            {% assign articles = (site.articles | sort: 'date') | reverse %} 
-            {% for article in articles %}
-            <div class="row">
-                <div class="col-md-12">
-                    <h3><a href="{{article.URL}}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a></h3>
-                    <p>{{ article.content }}</p>
+            {% assign environmental-articles = (site.articles | where: "categories","environment" | sort: 'date') | reverse %}
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse1">Environment Impacts</a>
+                    </h3>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                        <ul class="list-group">
+                            {% for article in environmental-articles %}
+                            <li class="list-group-item">
+                                <h4><a href="{{article.URL}}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a></h4>
+                                <p>{{ article.content }}</p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
                 </div>
             </div>
-            {% endfor %}
+
+            {% assign health-articles = (site.articles | where: "categories","health" | sort: 'date') | reverse %}
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse2">Health Impacts</a>
+                    </h3>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <ul class="list-group">
+                            {% for article in health-articles %}
+                            <li class="list-group-item">
+                                <h4><a href="{{article.URL}}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a></h4>
+                                <p>{{ article.content }}</p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            {% assign accident-articles = (site.articles | where: "categories","accidents" | sort: 'date') | reverse %}
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse3">Industry Accidents</a>
+                    </h3>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <ul class="list-group">
+                            {% for article in accident-articles %}
+                            <li class="list-group-item">
+                                <h4><a href="{{article.URL}}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a></h4>
+                                <p>{{ article.content }}</p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            {% assign economic-articles = (site.articles | where: "categories","economics" | sort: 'date') | reverse %}
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse4">Economic Impact</a>
+                    </h3>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <ul class="list-group">
+                            {% for article in economic-articles %}
+                            <li class="list-group-item">
+                                <h4><a href="{{article.URL}}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a></h4>
+                                <p>{{ article.content }}</p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>

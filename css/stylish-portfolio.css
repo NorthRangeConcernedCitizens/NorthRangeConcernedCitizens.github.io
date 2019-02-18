@@ -255,8 +255,14 @@ div.action {
     color: white;
 }
 
-p { font-size: 1.3em; }
 
+
+p { font-size: 1.3em; }
+/* articles */
+
+.articles .panel-title {
+    font-size: 1.8em;
+}
 /* news */
 .news_article {
     font-size: 1.5em;
