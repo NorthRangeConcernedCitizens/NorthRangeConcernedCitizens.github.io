@@ -5,3 +5,4 @@ URL: https://www.citylab.com/environment/2016/11/30-years-of-pipeline-accidents-
 category: accidents
 ---
 
+Over the last thirty years, just under 9,000 significant pipeline-related incidents have taken place nationwide, according to data from the Pipeline and Hazardous Materials Safety Administration.
