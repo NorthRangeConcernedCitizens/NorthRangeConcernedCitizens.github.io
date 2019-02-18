@@ -1,6 +1,6 @@
 ---
 title: Fracking is fracturing the total environment of the Earth
-date: 2019-02-12 10:04:00 -11:00
+date: 2017-10-26 00:00:00 -11:00
 URL: https://atlasofscience.org/fracking-is-fracturing-the-total-environment-of-the-earth/
 category: environment
 ---
