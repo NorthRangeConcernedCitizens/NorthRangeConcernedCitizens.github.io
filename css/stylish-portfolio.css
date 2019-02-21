@@ -263,9 +263,11 @@ p { font-size: 1.3em; }
 .articles .panel-title {
     font-size: 1.8em;
 }
+
 /* news */
 .news_article {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
 /* Map */
