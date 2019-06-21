@@ -7,4 +7,4 @@ URL: https://concernedhealthny.org/wp-content/uploads/2019/06/Fracking-Science-C
 category: health
 ---
 
-Report published by the Concerned Health Professionals of New York- June 2019
+Report published by the Concerned Health Professionals of New York - June 2019
