@@ -35,7 +35,7 @@ body {
 
 /* Custom Button Styles */
 
-.btn-danger{
+.btn-primary, .btn-danger{
     font-size: 40px;
 }
 
@@ -291,4 +291,8 @@ p { font-size: 1.3em; }
 
 footer {
     padding: 100px 0;
+}
+
+.emphasis {
+    font-size: 1.5em;
 }
