@@ -133,6 +133,19 @@ div.action {
     text-indent: 20px;
 }
 
+.action.xog-wells {
+    /* color: #fff; */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/uploads/xogWells.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.action.xog-wells a {
+    font-size: 1.5em;
+}
+
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
     text-decoration: none;
